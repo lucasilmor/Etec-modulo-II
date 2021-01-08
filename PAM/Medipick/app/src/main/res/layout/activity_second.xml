@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="-245dp"
+        android:layout_marginTop="-10dp"
+        android:layout_toRightOf="@+id/pill"
+        android:background="#5C330303"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/car"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/car" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-10dp"
+        android:layout_toRightOf="@+id/car"
+        android:background="#5C330303"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/pres"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@id/car"
+        android:src="@drawable/pres" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="-245dp"
+        android:layout_marginTop="160dp"
+        android:layout_toRightOf="@+id/pill"
+        android:background="#5C330303"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/list"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/car"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/list" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="160dp"
+        android:layout_toRightOf="@+id/car"
+        android:background="#5C330303"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/medic"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/car"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/car"
+        android:src="@drawable/medic" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="-245dp"
+        android:layout_marginTop="330dp"
+        android:layout_toRightOf="@+id/pill"
+        android:background="#5C330303"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/list"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/profile" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="330dp"
+        android:layout_toRightOf="@+id/car"
+        android:background="#5C330303"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/chat"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/list"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="33dp"
+        android:layout_toRightOf="@+id/list"
+        android:src="@drawable/chat" />
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/pill"
+        android:layout_marginLeft="-245dp"
+        android:layout_marginTop="-95dp"
+        android:layout_toRightOf="@+id/pill"
+        android:background="#5C330303" />
+
+    <ImageView
+        android:id="@+id/pill"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/profile"
+        android:layout_marginLeft="-24dp"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@+id/car"
+        android:src="@drawable/pill" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER NOW"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESCRIPTIONS"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="123dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDERS"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="293dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHARMACISTS"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="293dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="450dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHATS"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="286dp"
+        android:layout_marginTop="455dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PILL REMINDER"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="575dp"/>
+
+    />
+
+
+</RelativeLayout>

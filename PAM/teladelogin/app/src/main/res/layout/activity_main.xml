@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7644CD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrowback" />
+
+
+    <ImageView
+
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="50dp" />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/foquete" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="500dp"
+        android:text="Login"
+        android:textColor="#011"
+        android:textSize="40dp" />
+
+    <EditText
+
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-520dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="80dp"
+        android:text="Endereço de email"
+        android:textColor="#000000"
+        android:textSize="28dp" />
+
+    <EditText
+
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-10dp"
+        android:background="#ffff"
+        android:paddingLeft="150dp"
+        android:text="Senha"
+        android:textColor="#000000"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="OU"
+        android:textSize="30dp" />
+
+    <EditText
+
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:background="#002A8C"
+        android:paddingLeft="70dp"
+        android:text="Login com Facebbok"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp" />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#A800ACEE"
+        android:paddingLeft="90dp"
+        android:text="Login com Twitter"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="100dp"
+        android:text="Não tem uma conta?"
+        android:textSize="23dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#9C27B0"
+        android:paddingLeft="60dp"
+        android:text="Cadastrar"
+        android:textColor="#FBFBFB"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
