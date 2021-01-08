@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+<h2>Formulário</h2>
+<form name="formulario" method="post" action="post.php">
+
+
+<p><b>O que você achou do site?</b></p>
+<input type="radio" name="aval" value="MUITO BOM"/>Muito bom
+<input type="radio" name="aval" value="BOM"/>Bom
+<input type="radio" name="aval" value="REGULAR"/>Regular
+<input type="radio" name="aval" value="UM LIXO"/>Um LIXO
+
+
+<p><b> Qual seção você mais gostou?</b></p>
+<select name="secao">
+<option value="cartaz">Em cartaz</option>
+<option value="trilha">Trilha sonora</option>
+<option value="galeria">Galeria de fotos</option>
+<option value="bilheteria">Bilheteria</option>
+<option value="outro">Outro</option>
+Outro:<input type="text" name="outro"> <br/>
+</select>
+<br/>
+
+
+
+<p><b>Digite seus comentários no espaço abaixo: </b></p>
+<textarea name="msg" cols="50" rows="8"></textarea>
+<br/> <br/>
+
+
+
+
+<p><b>Diga nos como entrar em contato com você:</b></p>
+Nome   <input type="text" name="nome"><br/>
+E-mail <input type="text" name="email"><br/>
+Fone   <input type="text" name="fone"><br/>
+Fax    <input type="text" name="fax"><br/>
+<br/>
+
+<input type="checkbox" name="queroreceber" value=" Sim Quero Receber"/>
+Quero receceber as novidades do site por e-mail<br/><br/>
+
+&nbsp; &nbsp; &nbsp;
+<input type="submit" name="Enviar Dados">
+<input type="reset" name="Limpar Formulário">
+
+</form>
+</body>
+</html>
